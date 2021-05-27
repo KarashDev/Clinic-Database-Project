@@ -17,8 +17,6 @@ namespace MedicalDBProject
 {
     public partial class AuthorizationForm : Form
     {
-
-        // Запуск главного окна
         public AuthorizationForm()
         {
             InitializeComponent();
@@ -31,7 +29,6 @@ namespace MedicalDBProject
 
         private void OpenDbViewButton_Click(object sender, EventArgs e)
         {
-            // Открывается окно DbViewFrom
             var dbViewForm = new DbViewForm();
             dbViewForm.Show();
         }
