@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Windows.Forms;
@@ -27,19 +28,26 @@ namespace MedicalDBProject
                 if (!String.IsNullOrEmpty(textBoxNewLogin.Text)
                     && !String.IsNullOrEmpty(textBoxNewPassword.Text))
                 {
-                    var newEmployee = new DataBaseCreator.EmployeeData
+                    // Введена доп. проверка, нет ли уже в базе такого логина и пароля
+                    if (!db.Employee.Any(e => e.Login == DataHasher.GetHashMd5(textBoxNewLogin.Text) &&
+                    e.Password == DataHasher.GetHashMd5(textBoxNewPassword.Text)))
                     {
-                        Login = DataHasher.GetHashMd5(textBoxNewLogin.Text),
-                        Password = DataHasher.GetHashMd5(textBoxNewPassword.Text)
-                    };
+                        var newEmployee = new DataBaseCreator.EmployeeData
+                        {
+                            Login = DataHasher.GetHashMd5(textBoxNewLogin.Text),
+                            Password = DataHasher.GetHashMd5(textBoxNewPassword.Text)
+                        };
 
-                    db.Employee.Add(newEmployee);
-                    db.SaveChanges();
+                        db.Employee.Add(newEmployee);
+                        db.SaveChanges();
 
-                    MessageBox.Show("Новый сотрудник зарегистрирован", "Регистрация завершена", MessageBoxButtons.OK,
+                        MessageBox.Show("Новый сотрудник зарегистрирован", "Регистрация завершена", MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
-                    textBoxNewLogin.Clear();
-                    textBoxNewPassword.Clear();
+                        textBoxNewLogin.Clear();
+                        textBoxNewPassword.Clear();
+                    }    
+                    else MessageBox.Show("Сотрудник с указанными данными" +
+                        " уже зарегистрирован в базе", "Ошибка регистрации", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else MessageBox.Show("Поля должны быть заполнены", "Ошибка: Пустые поля", MessageBoxButtons.OK,
                MessageBoxIcon.Error);

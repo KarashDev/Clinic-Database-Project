@@ -21,6 +21,10 @@ namespace MedicalDBProject
 
             dataGridViewChangeWards.DataSource = DataGridViewLoader.LoadWardsInDataGridView().ToList();
 
+            // Реализация автоматической перезагрузки окна с выведенной базой (DbChangeForm), 
+            // сразу после закрытия окна, изменяющего данные этой базы. Реализовано, 
+            // чтобы пользоваетелю не нужно было вручную перезагружать окно с данными базы,
+            // чтобы увидеть обновленную таблицу.
             this.FormClosed += new FormClosedEventHandler(ChangeDbWardsForm_FormClosed);
 
             void ChangeDbWardsForm_FormClosed(object sender, FormClosedEventArgs e)
