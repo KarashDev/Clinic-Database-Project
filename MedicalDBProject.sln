@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalDBProject.Forms", "MedicalDBProject\MedicalDBProject.Forms.csproj", "{4ECA0858-E843-44DE-86D9-940B58570EF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BD0A2C70-3855-4119-A124-B064C442FFB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalDBProject.Data", "MedicalDBProject.Data\MedicalDBProject.Data.csproj", "{47336162-5DFC-41AB-8120-E45108D6CF80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalDBProject.Data.Test", "MedicalDBProject.Data.Test\MedicalDBProject.Data.Test.csproj", "{FED5133D-F960-4268-999A-262739236E0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalDBProject.Forms.Test", "MedicalDBProject.Forms.Test\MedicalDBProject.Forms.Test.csproj", "{4FD69DA8-803C-4815-ADBD-39D7182D87BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalDBProject.BLogic", "MedicalDBProject.BLogic\MedicalDBProject.BLogic.csproj", "{4ADEF337-C72A-4794-8A2D-A8BE6E90FAD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ECA0858-E843-44DE-86D9-940B58570EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECA0858-E843-44DE-86D9-940B58570EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECA0858-E843-44DE-86D9-940B58570EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECA0858-E843-44DE-86D9-940B58570EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47336162-5DFC-41AB-8120-E45108D6CF80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47336162-5DFC-41AB-8120-E45108D6CF80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47336162-5DFC-41AB-8120-E45108D6CF80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47336162-5DFC-41AB-8120-E45108D6CF80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED5133D-F960-4268-999A-262739236E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED5133D-F960-4268-999A-262739236E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED5133D-F960-4268-999A-262739236E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED5133D-F960-4268-999A-262739236E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD69DA8-803C-4815-ADBD-39D7182D87BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD69DA8-803C-4815-ADBD-39D7182D87BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD69DA8-803C-4815-ADBD-39D7182D87BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD69DA8-803C-4815-ADBD-39D7182D87BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ADEF337-C72A-4794-8A2D-A8BE6E90FAD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADEF337-C72A-4794-8A2D-A8BE6E90FAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADEF337-C72A-4794-8A2D-A8BE6E90FAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ADEF337-C72A-4794-8A2D-A8BE6E90FAD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FED5133D-F960-4268-999A-262739236E0E} = {BD0A2C70-3855-4119-A124-B064C442FFB3}
+		{4FD69DA8-803C-4815-ADBD-39D7182D87BE} = {BD0A2C70-3855-4119-A124-B064C442FFB3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F586374-8F9D-4E3D-91ED-38031D7A59BD}
+	EndGlobalSection
+EndGlobal

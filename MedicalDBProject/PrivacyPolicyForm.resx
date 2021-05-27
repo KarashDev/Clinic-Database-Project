@@ -1,0 +1,125 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Nunc mi ipsum faucibus vitae aliquet nec. Id velit ut tortor pretium viverra 
+suspendisse potenti nullam. In hac habitasse platea dictumst. Eu sem integer 
+vitae justo eget magna fermentum iaculis. Fermentum et sollicitudin ac orci 
+phasellus egestas tellus rutrum tellus. Venenatis cras sed felis eget velit. 
+Et tortor at risus viverra adipiscing at in. Vitae et leo duis ut. Pharetra diam 
+sit amet nisl suscipit adipiscing bibendum est. Etiam dignissim diam quis 
+enim lobortis scelerisque fermentum dui faucibus. Amet nulla facilisi morbi 
+tempus iaculis urna. Viverra adipiscing at in tellus. Suspendisse in est ante 
+in nibh mauris cursus mattis molestie. Libero enim sed faucibus turpis in eu 
+mi bibendum. Id cursus metus aliquam eleifend mi in. Varius duis at consectetur 
+lorem donec massa sapien faucibus.
+
+Id nibh tortor id aliquet lectus proin nibh nisl condimentum. Arcu odio 
+ut sem nulla pharetra. Faucibus vitae aliquet nec ullamcorper sit amet risus. 
+Faucibus in ornare quam viverra orci. Auctor augue mauris augue neque gravida 
+in fermentum. Odio ut sem nulla pharetra diam sit amet. Arcu ac tortor 
+dignissim convallis aenean et tortor at risus. Scelerisque eleifend donec pretium
+ vulputate. Scelerisque fermentum dui faucibus in. Sed blandit libero volutpat 
+sed cras ornare arcu.
+
+Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Urna 
+molestie at elementum eu facilisis. Augue lacus viverra vitae congue eu. 
+Tristique et egestas quis ipsum suspendisse ultrices. Duis ut diam quam nulla 
+porttitor massa id. Vitae nunc sed velit dignissim sodales ut. Leo in vitae turpis 
+massa sed elementum tempus egestas. Etiam dignissim diam quis enim lobortis
+ scelerisque fermentum dui faucibus. Interdum velit laoreet id donec ultrices. 
+Dignissim suspendisse in est ante in nibh mauris. At varius vel pharetra vel. 
+Felis donec et odio pellentesque diam volutpat commodo sed egestas.
+Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Urna 
+molestie at elementum eu facilisis. Augue lacus viverra vitae congue eu. 
+Tristique et egestas quis ipsum suspendisse ultrices. Duis ut diam quam nulla 
+porttitor massa id. Vitae nunc sed velit dignissim sodales ut. Leo in vitae turpis 
+massa sed elementum tempus egestas. Etiam dignissim diam quis enim lobortis
+ scelerisque fermentum dui faucibus. Interdum velit laoreet id donec ultrices. 
+Dignissim suspendisse in est ante in nibh mauris. At varius vel pharetra vel. 
+Felis donec et odio pellentesque diam volutpat commodo sed egestas.
+
+Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Urna 
+molestie at elementum eu facilisis. Augue lacus viverra vitae congue eu. 
+Tristique et egestas quis ipsum suspendisse ultrices. Duis ut diam quam nulla 
+porttitor massa id. Vitae nunc sed velit dignissim sodales ut. Leo in vitae turpis 
+massa sed elementum tempus egestas. Etiam dignissim diam quis enim lobortis
+ scelerisque fermentum dui faucibus. Interdum velit laoreet id donec ultrices. 
+Dignissim suspendisse in est ante in nibh mauris. At varius vel pharetra vel. 
+Felis donec et odio pellentesque diam volutpat commodo sed egestas.
+
+Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Urna 
+molestie at elementum eu facilisis. Augue lacus viverra vitae congue eu. 
+Tristique et egestas quis ipsum suspendisse ultrices. Duis ut diam quam nulla 
+porttitor massa id. Vitae nunc sed velit dignissim sodales ut. Leo in vitae turpis 
+massa sed elementum tempus egestas. Etiam dignissim diam quis enim lobortis
+ scelerisque fermentum dui faucibus. Interdum velit laoreet id donec ultrices. 
+Dignissim suspendisse in est ante in nibh mauris. At varius vel pharetra vel. 
+Felis donec et odio pellentesque diam volutpat commodo sed egestas.
+
+Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Urna 
+molestie at elementum eu facilisis. Augue lacus viverra vitae congue eu. 
+Tristique et egestas quis ipsum suspendisse ultrices. Duis ut diam quam nulla 
+porttitor massa id. Vitae nunc sed velit dignissim sodales ut. Leo in vitae turpis 
+massa sed elementum tempus egestas. Etiam dignissim diam quis enim lobortis
+ scelerisque fermentum dui faucibus. Interdum velit laoreet id donec ultrices. 
+Dignissim suspendisse in est ante in nibh mauris. At varius vel pharetra vel. 
+Felis donec et odio pellentesque diam volutpat commodo sed egestas.</value>
+  </data>
+</root>
