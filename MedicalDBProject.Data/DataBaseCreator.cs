@@ -216,7 +216,7 @@ namespace MedicalDBProject.Data
                 var patient28 = CreatePatient("Панфилов Б.Ф.", 1997, 79137065276, group1, ds4, ward7);
                 var patient29 = CreatePatient("Григорьев Я.Ф.", 1950, 79478831627, group4, ds3, ward2);
                 var patient30 = CreatePatient("Попова А.М.", 1994, 79178832328, group7, ds1, ward1);
-                var patient31 = CreatePatient("Попов C.C.", 1012, 12345, group7, ds8, ward6);
+                var patient31 = CreatePatient("Попов C.C.", 1984, 79573212328, group7, ds8, ward6);
 
 
                 dataBase.AddRange(patient1, patient2, patient3, patient4, patient5, patient6,
