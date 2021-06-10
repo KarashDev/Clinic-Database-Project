@@ -27,26 +27,26 @@ namespace MedicalDBProject.Forms
 
         private void DbViewSortButton_Click(object sender, EventArgs e)
         {
-            var output = SortImplementation.ImplementSorting();
+            var outputRows = SortImplementation.ImplementSorting();
             switch (comboBoxSortDbView.Text)
             {
                 case "По имени":
-                    dataGridViewDbView.DataSource = output.OrderBy(p => p.ФИО).ToList();
+                    dataGridViewDbView.DataSource = outputRows.OrderBy(p => p.ФИО).ToList();
                     break;
                 case "По году рождения":
-                    dataGridViewDbView.DataSource = output.OrderBy(p => p.Год_рождения).ToList();
+                    dataGridViewDbView.DataSource = outputRows.OrderBy(p => p.Год_рождения).ToList();
                     break;
                 case "По телефону":
-                    dataGridViewDbView.DataSource = output.OrderBy(p => p.Телефон).ToList();
+                    dataGridViewDbView.DataSource = outputRows.OrderBy(p => p.Телефон).ToList();
                     break;
                 case "По группе крови":
-                    dataGridViewDbView.DataSource = output.OrderBy(p => p.Группа_крови).ToList();
+                    dataGridViewDbView.DataSource = outputRows.OrderBy(p => p.Группа_крови).ToList();
                     break;
                 case "По диагнозу":
-                    dataGridViewDbView.DataSource = output.OrderBy(p => p.Диагноз).ToList();
+                    dataGridViewDbView.DataSource = outputRows.OrderBy(p => p.Диагноз).ToList();
                     break;
                 case "По палате":
-                    dataGridViewDbView.DataSource = output.OrderBy(p => p.Палата).ToList();
+                    dataGridViewDbView.DataSource = outputRows.OrderBy(p => p.Палата).ToList();
                     break;
             }
         }
@@ -57,11 +57,11 @@ namespace MedicalDBProject.Forms
 
             if (!String.IsNullOrEmpty(searchText))
             {
-                var output = SearchImplementation.ImplementSearching(searchText);
+                var outputRows = SearchImplementation.ImplementSearching(searchText);
 
-                if (output != null)
+                if (outputRows != null)
                 {
-                    dataGridViewDbView.DataSource = output.ToList();
+                    dataGridViewDbView.DataSource = outputRows.ToList();
                 }
                 else
                 {

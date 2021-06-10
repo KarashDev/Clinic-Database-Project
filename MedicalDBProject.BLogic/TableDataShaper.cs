@@ -53,18 +53,5 @@ namespace MedicalDBProject.Forms
                 Код_МКБ = d.Code
             }).ToList();
         }
-
-        //internal static IQueryable<object> GetStringForDataGrid(ApplicationContext db, IQueryable<Patient> match)
-        //{
-        //    return match.Select(matchedPatient => new
-        //    {
-        //        ФИО = matchedPatient.FullName,
-        //        Год_рождения = matchedPatient.YearOfBirth,
-        //        Телефон = matchedPatient.PhoneNumber,
-        //        Группа_крови = matchedPatient.BloodGroup.Group,
-        //        Диагноз = matchedPatient.Diagnosis.Name,
-        //        Палата = matchedPatient.Ward.Number
-        //    });
-        //}
     }
 }
